@@ -64,4 +64,5 @@ CREATE TABLE Entregas (
     FechaEntrega DATE,
     CONSTRAINT FK_Entregas_Ventas
         FOREIGN KEY (IdVenta) REFERENCES Ventas(IdVenta)
+
 );
